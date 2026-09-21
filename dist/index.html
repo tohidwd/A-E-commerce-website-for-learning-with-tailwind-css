@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <title>Pathik | Shoes for the long way round</title>
+  <link rel="stylesheet" crossorigin href="/assets/index-BxqHTdla.css">
+</head>
+<body class="bg-black1 text-white1 box-border">
+
+    <!-- Header -->
+    <header class="fixed inset-x-0 top-0 z-50 rounded-b-3xl border-b border-white1 bg-black1/90 backdrop-blur">
+        <div class="mx-auto flex max-w-6xl items-center justify-between px-5 py-3 sm:px-7">
+            <h2 class="font-serif text-2xl font-bold sm:text-3xl">Pathik</h2>
+
+            <div class="flex items-center gap-4 sm:gap-6">
+                <button type="button" aria-label="Toggle theme" class="text-2xl">
+                    <i class="fa-solid fa-circle-half-stroke"></i>
+                </button>
+
+                <a href="#" class="flex items-center gap-2 rounded-full border-2 border-white2 bg-white1 px-4 py-2 text-black transition duration-200 hover:bg-yellow-200">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span>Cart</span>
+                    <span class="rounded-3xl bg-yello px-2 font-bold">0</span>
+                </a>
+
+                <button type="button" aria-label="Open menu" class="text-2xl">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="mx-auto max-w-6xl px-5 pt-24 sm:px-7 md:pt-28">
+
+        <!-- Hero: stacked on mobile, two columns from lg -->
+        <section class="grid items-center gap-10 border-b border-white2 pb-12 lg:grid-cols-2 lg:gap-14 lg:pb-16">
+            <div>
+                <h1 class="font-serif text-4xl font-bold leading-tight tracking-wider sm:text-5xl lg:text-6xl">Shoes for the long way round.</h1>
+                <p class="mt-6 text-lg text-white2 sm:text-xl lg:text-2xl">Everyday sneakers for walking, running and getting there on foot. Free delivery on orders over $100.</p>
+
+                <div class="mt-8 flex flex-wrap gap-3">
+                    <a class="rounded-4xl border-2 bg-blue px-5 py-3 font-bold text-black2 hover:opacity-80" href="#shop">Shop the collection</a>
+                    <a class="rounded-4xl border border-white1 px-5 py-3 font-bold text-white1 hover:border-2" href="#why">Why pathik</a>
+                </div>
+            </div>
+
+            <div class="relative">
+                <img class="h-72 w-full rounded-4xl object-cover brightness-85 sm:h-96 lg:h-[28rem]" src="/assets/pic1-B-MQyje9.avif" alt="Stride Runner sneaker">
+                <p class="absolute right-4 top-4 rounded-full bg-yello p-2 font-bold text-black transition duration-400 hover:bg-blue sm:right-6 sm:top-6">
+                    Stride Runner . $89.00
+                </p>
+            </div>
+        </section>
+
+        <!-- Why Pathik: stacked on mobile, three columns from md -->
+        <section id="why" class="grid scroll-mt-24 gap-6 border-b border-white2 py-10 md:grid-cols-3 md:gap-8">
+            <div class="border-b-[0.5px] border-white2 pb-4 md:border-b-0 md:pb-0">
+                <p class="pb-2 text-2xl font-bold">Free delivery</p>
+                <p class="text-white2">Orders over $100 arrive at no charge. Under that, delivery is a flat $6.</p>
+            </div>
+            <div class="border-b-[0.5px] border-white2 pb-4 md:border-b-0 md:pb-0">
+                <p class="pb-2 text-2xl font-bold">30-day returns</p>
+                <p class="text-white2">Wear them around the house. Not right? Send them back within 30 days.</p>
+            </div>
+            <div>
+                <p class="pb-2 text-2xl font-bold">True to size</p>
+                <p class="text-white2">Adult sizes 39–45 and kids 28–34, with a fit note on every pair.</p>
+            </div>
+        </section>
+
+        <!-- Shop -->
+        <section id="shop" class="scroll-mt-24 py-12">
+            <p class="text-3xl font-bold text-blue sm:text-4xl">Shop</p>
+
+            <!-- Filter buttons wrap onto a new line when they do not fit -->
+            <ul class="mt-6 flex list-none flex-wrap gap-3">
+                <li><button type="button" data-filter="all" aria-pressed="true" class="cursor-pointer rounded-3xl bg-white px-5 py-2 font-bold text-black aria-pressed:bg-blue">All</button></li>
+                <li><button type="button" data-filter="running" aria-pressed="false" class="cursor-pointer rounded-3xl bg-white px-5 py-2 font-bold text-black aria-pressed:bg-blue">Running</button></li>
+                <li><button type="button" data-filter="casual" aria-pressed="false" class="cursor-pointer rounded-3xl bg-white px-5 py-2 font-bold text-black aria-pressed:bg-blue">Casual</button></li>
+                <li><button type="button" data-filter="kids" aria-pressed="false" class="cursor-pointer rounded-3xl bg-white px-5 py-2 font-bold text-black aria-pressed:bg-blue">Kids</button></li>
+            </ul>
+
+            <!-- 1 column on mobile, 2 on sm, 3 on lg. All cards are siblings. -->
+            <div class="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+
+                <article data-cat="running" class="overflow-hidden rounded-4xl bg-black2">
+                    <img class="h-64 w-full object-cover brightness-85 sm:h-72" src="/assets/pic1-B-MQyje9.avif" alt="Stride Runner">
+                    <div class="p-5">
+                        <p class="pb-3 text-white2">Running</p>
+                        <h3 class="pb-6 text-2xl font-bold">Stride Runner</h3>
+                        <div class="flex flex-wrap items-center justify-between gap-3">
+                            <p class="font-bold">$89.00</p>
+                            <a class="rounded-4xl bg-yello px-5 py-2 text-center font-bold text-black transition duration-500 hover:bg-blue" href="./img1.html">Choose size</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article data-cat="running" class="overflow-hidden rounded-4xl bg-black2">
+                    <img class="h-64 w-full object-cover brightness-85 sm:h-72" src="/assets/pic2-DGJ1DC_0.avif" alt="Cloud Trainer">
+                    <div class="p-5">
+                        <p class="pb-3 text-white2">Running</p>
+                        <h3 class="pb-6 text-2xl font-bold">Cloud Trainer</h3>
+                        <div class="flex flex-wrap items-center justify-between gap-3">
+                            <p class="font-bold">$89.00</p>
+                            <a class="rounded-4xl bg-yello px-5 py-2 text-center font-bold text-black transition duration-500 hover:bg-blue" href="./img2.html">Choose size</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article data-cat="casual" class="overflow-hidden rounded-4xl bg-black2">
+                    <img class="h-64 w-full object-cover brightness-85 sm:h-72" src="/assets/pic3-osBUOlNx.avif" alt="Daily Canvas">
+                    <div class="p-5">
+                        <p class="pb-3 text-white2">Casual</p>
+                        <h3 class="pb-6 text-2xl font-bold">Daily Canvas</h3>
+                        <div class="flex flex-wrap items-center justify-between gap-3">
+                            <p class="font-bold">$89.00</p>
+                            <a class="rounded-4xl bg-yello px-5 py-2 text-center font-bold text-black transition duration-500 hover:bg-blue" href="./img3.html">Choose size</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article data-cat="casual" class="overflow-hidden rounded-4xl bg-black2">
+                    <img class="h-64 w-full object-cover brightness-85 sm:h-72" src="/assets/pic4-BVcfRrRT.avif" alt="Harbor Low">
+                    <div class="p-5">
+                        <p class="pb-3 text-white2">Casual</p>
+                        <h3 class="pb-6 text-2xl font-bold">Harbor Low</h3>
+                        <div class="flex flex-wrap items-center justify-between gap-3">
+                            <p class="font-bold">$118.00</p>
+                            <a class="rounded-4xl bg-yello px-5 py-2 text-center font-bold text-black transition duration-500 hover:bg-blue" href="./img4.html">Choose size</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article data-cat="kids" class="overflow-hidden rounded-4xl bg-black2">
+                    <img class="h-64 w-full object-cover brightness-85 sm:h-72" src="/assets/pic5-DgaaOIOp.avif" alt="Mini Dash">
+                    <div class="p-5">
+                        <p class="pb-3 text-white2">Kids</p>
+                        <h3 class="pb-6 text-2xl font-bold">Mini Dash</h3>
+                        <div class="flex flex-wrap items-center justify-between gap-3">
+                            <p class="font-bold">$42.00</p>
+                            <a class="rounded-4xl bg-yello px-5 py-2 text-center font-bold text-black transition duration-500 hover:bg-blue" href="./img5.html">Choose size</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article data-cat="kids" class="overflow-hidden rounded-4xl bg-black2">
+                    <img class="h-64 w-full object-cover brightness-85 sm:h-72" src="/assets/pic6-DWwfFWTx.avif" alt="Mini Play">
+                    <div class="p-5">
+                        <p class="pb-3 text-white2">Kids</p>
+                        <h3 class="pb-6 text-2xl font-bold">Mini Play</h3>
+                        <div class="flex flex-wrap items-center justify-between gap-3">
+                            <p class="font-bold">$39.00</p>
+                            <a class="rounded-4xl bg-yello px-5 py-2 text-center font-bold text-black transition duration-500 hover:bg-blue" href="./img6.html">Choose size</a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="flex justify-center gap-10 border-t border-white2 py-6 text-2xl text-white">
+        <a href="#" aria-label="Facebook" class="inline-block transition duration-300 hover:scale-150 hover:text-yello"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#" aria-label="Instagram" class="inline-block transition duration-300 hover:scale-150 hover:text-yello"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" aria-label="WhatsApp" class="inline-block transition duration-300 hover:scale-150 hover:text-yello"><i class="fa-brands fa-whatsapp"></i></a>
+    </footer>
+</body>
+</html>
